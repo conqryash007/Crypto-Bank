@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-50: #fff9e6;
+  --color-gold-100: #ffedb3;
+  --color-gold-200: #ffe080;
+  --color-gold-300: #ffd44d;
+  --color-gold-400: #ffc71a;
+  --color-gold-500: #e6b000;
+  --color-gold-600: #b38900;
+  --color-gold-700: #806200;
+  --color-gold-800: #4d3b00;
+  --color-gold-900: #1a1400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-slate-950);
+  color: white;
+}
